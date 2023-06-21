@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {% block head %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BANGLORE HOUSE PRICE PREDICTION</title>
+  
+    <link href='/static/style.css' rel='stylesheet'/>
+    {% endblock head %}
+
+  </head>
+  <body>
+    {% block body %}
+      <div class='titl'><p>BANGLORE HOUSE PRICE PREDICTION</div>
+      <form actions='/price' method ='POST' >
+        <div>
+          <div class='city'>SELECT THE LOCATION YOU WANT</div>
+          <div>
+          <select class='city2' name='location' class="form-select" aria-label="Default select example">
+              {% for j in q %}
+                <option value={{j}}>{{j}}</option>
+              {% endfor %}
+          </select>
+        </div>
+        </div>
+        <div>
+        <div>
+          <div class='sqft'>
+          <label  name="sqft" for="sqft">ENTER THE SQFT</label>
+          </div>
+          <div class='sqft2'>
+          <input  class="sqft2" type="number" name="sqft" min=1000 max=5000 required>
+          </div>
+          <button class="submit" type="submit" class="btn btn-primary">Submit</button>
+
+
+          
+          
+          
+              
+        </div>
+
+          
+      </form>
+      
+    {% endblock body %}
+  </body>
+</html>

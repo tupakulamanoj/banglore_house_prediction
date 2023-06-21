@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+<!doctype html>
+<html>
+    <head>
+        <title>
+            final price
+        </title>
+        
+    </head>
+    <body>
+        {% block body %}
+        <div class="kk">
+        <p> Selected location : {{ location }} </p>
+        <p>Selected Sqft  : {{distance}} </p>
+        
+        
+        <p>predicted price : {{  price }} rupees</p>
+        </div>
+        {% endblock body %}
+    </body>
+</html>

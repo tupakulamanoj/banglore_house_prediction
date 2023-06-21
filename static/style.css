@@ -1,0 +1,47 @@
+body{
+    background:url('https://media.gettyimages.com/id/1382384512/photo/bangalore-or-bengaluru.jpg?s=612x612&w=0&k=20&c=CNVSJcfVQY4ueya6E5-aTgCosGyOdGkw2E8P37vEJWA=');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.titl{
+    margin-top: -90px;
+    font-size: 100px;
+
+}
+.city{
+    margin-top: -100px;
+    font-size: 30px;
+}
+.city2{
+    margin-left: 65px;
+    border-style: dotted;
+    width: 200px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sqft{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.sqft2{
+    margin-left:25px;
+    /* border-style: dotted; */
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.submit{
+    margin-left:105px;
+    width: 100px;
+    margin-top: 15px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.kk{
+    font-size: 50px;
+}
